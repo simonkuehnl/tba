@@ -1,0 +1,14 @@
+mat-grid-list{
+    margin: 0px;
+    background-color: #404040;
+}
+header{
+    width: 100%;
+    margin: 0px;
+    position: fixed;
+    top: 0;
+}
+mat-icon{
+    float: left;
+    color: white;
+}

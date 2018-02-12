@@ -1,0 +1,26 @@
+mat-grid-list{
+    margin: 0px;
+    background-color: #404040;
+}
+footer{
+    width: 100%;
+    margin: 0px;
+    position: fixed;
+    bottom: 0;
+    z-index: 2;
+}
+p{
+    color: white;
+    margin: 0;
+    margin-top: -5px;
+    font-size: 13px;
+}
+mat-icon{
+    margin-top: 4px;
+    color: white;
+    top: 3px;
+    margin-left: 20%;
+}
+div{
+    height: 100%;
+}
