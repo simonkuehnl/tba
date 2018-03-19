@@ -1,11 +1,6 @@
-<mat-sidenav-container class="example-container">
-        <mat-sidenav #sidenav mode="side" [(opened)]="opened" (opened)="events.push('open!')"
-                     (closed)="events.push('close!')">
-          Sidenav content
-        </mat-sidenav>
-      
-        <mat-sidenav-content id='content'>
-            <app-header></app-header>
-            <app-footer></app-footer>
-        </mat-sidenav-content>
-      </mat-sidenav-container>
+<app-header></app-header>
+<div id='content'>
+<app-standings>
+</app-standings>
+</div>
+<app-footer></app-footer>
